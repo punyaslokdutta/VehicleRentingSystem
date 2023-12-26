@@ -1,0 +1,1 @@
+// add_vehicle(‘koramangala’,  “1 sedan”); //add 1 sedan to koramangala
