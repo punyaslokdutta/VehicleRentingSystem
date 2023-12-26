@@ -1,2 +1,2 @@
-# VehicleRentingSystem
-new vehicle rental service called KarSvc
+# Vehicle Renting System
+New vehicle rental service called KarSvc
