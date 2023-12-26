@@ -63,6 +63,16 @@ Booking{
 2.  While booking a vehicle if availability is not there, then it should fallback to another available branch, which is derived based on the vehicle selection strategy.
 
 
+### Design Decisions 
+
+1. Add Current Booking List in Vehicle (when vehicle is UnAvailable currently , but will be free in future required time slot)?
+
+isAvailable()  || isAvailable(timeSlot)
+
+2. TimeSeries DB needed or overkill?
+
+
+
 
 
 

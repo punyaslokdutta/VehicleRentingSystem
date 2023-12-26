@@ -2,8 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const { MongoMemoryServer } = require('mongodb-memory-server');
 const branch = require('./models/branch')
-const populateMockData = require('./data/populateMockData');
-const mockProperties = require('./data/mockProperties')
+// const populateMockData = require('./data/populateMockData');
+// const mockProperties = require('./data/mockProperties')
 const cors = require('cors');
 
 
@@ -22,7 +22,7 @@ const startServer = async () => {
   });
 
   console.log('Connected to MongoDB');
-  await populateMockData(mockProperties);
+  //await populateMockData(mockProperties);
 
   // routes
   var branchRouter = require('../backend/routes/branch.route');

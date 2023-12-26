@@ -13,15 +13,15 @@ var branchSchema = new mongoose.Schema(
     },
     location: {
       type: String,
-      required: true,
+      required: false,
     },
     spoc: {
       type: String,
-      required: true,
+      required: false,
     },
     contact: {
       type: String,
-      required: true,
+      required: false,
     }, 
     vehicles: {
       type: Map,
