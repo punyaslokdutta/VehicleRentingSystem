@@ -4,7 +4,14 @@
   "description": "New vehicle rental service called KarSvc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb-memory-server": "^9.1.3",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2"
   },
   "keywords": [],
   "author": "",

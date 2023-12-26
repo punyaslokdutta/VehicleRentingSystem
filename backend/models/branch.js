@@ -13,19 +13,35 @@ var branchSchema = new mongoose.Schema(
     },
     location: {
       type: String,
-      required: true,
+      required: false,
     },
     spoc: {
       type: String,
-      required: true,
+      required: false,
     },
     contact: {
       type: String,
-      required: true,
-    }
+      required: false,
+    }, 
+    vehicles: {
+      type: Map,
+      of: {
+        type: Number,
+        required: true,
+      },
+    },
   },
   { timestamps: true }
 );
+
+//vehicles map
+// {
+//   "_id": ObjectId("5e8b06f2e293e04323b29c99"),
+//   "vehicles": {
+//     "car": 1,
+//     "truck": 2,
+//   },
+// } 
 
 
 var Branch = mongoose.model('Property', branchSchema);
