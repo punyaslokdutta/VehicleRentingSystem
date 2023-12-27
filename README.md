@@ -5,6 +5,10 @@ New vehicle rental service called KarSvc
 
 Description:
 We are starting a new vehicle rental service called KarSvc. In this service, we will rent different kinds of vehicles such as cars and bikes.
+<img width="1429" alt="Screenshot 2023-12-27 at 4 13 53 PM" src="https://github.com/punyaslokdutta/VehicleRentingSystem/assets/13198518/ec9e5290-e734-45b9-afc1-37aa0c9b5f4e">
+<img width="1417" alt="Screenshot 2023-12-27 at 4 13 02 PM" src="https://github.com/punyaslokdutta/VehicleRentingSystem/assets/13198518/b1c1f8f1-6cb5-42cb-af54-95e4e1036413">
+<img width="631" alt="Screenshot 2023-12-27 at 4 13 35 PM" src="https://github.com/punyaslokdutta/VehicleRentingSystem/assets/13198518/2d1dca8c-3004-47cf-a293-014365452e50">
+
 
 UI Figma Link: https://www.figma.com/proto/wU6iDQ7a0qSTjjQ59YBTZb/Vehicle-rental?page-id=0%3A1&type=design&node-id=3-373&viewport=507%2C542%2C0.27&t=5fbJFLTRJA9k1hqL-1&scaling=min-zoom	
 
